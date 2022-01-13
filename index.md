@@ -25,5 +25,5 @@ Languages I know are:
 My favourite quote is:
 
 ```
-"If you're ever thirsty, drink some water."
+"Geese honk. Ducks quack. But what about swans?"
 ```
