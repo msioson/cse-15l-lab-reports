@@ -1,9 +1,9 @@
 # Greetings!
-***
 
 ## Lab Reports
 ***
-Week 2: [Lab Report 1](labreport1week2.md)
+Week 2: [Lab Report 1](labreport1week2.html)
+
 ## About me
 ***
 
