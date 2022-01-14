@@ -29,13 +29,13 @@ This is what it should look like once you are logged in.
 ## Trying Some Commands
 ***
 Now while you're connected to the server, here is a list of *some* commands you could run:
--```cd```: stands for change directory, a command to change your current directory
--```cd ~```: makes your current directory the home directory
--```ls```: lists out the contents of your current directory
--```ls -lat```: lists out the contents of your current directory with **hidden** directories and files included.
--```ls <directory>```: lists out the contents of the directory provided
--```cat <file directory>```: prints out the contents of the file
--```mkdir```: creates a directory or directories
+- ```cd```: stands for change directory, a command to change your current directory
+- ```cd ~```: makes your current directory the home directory
+- ```ls```: lists out the contents of your current directory
+- ```ls -lat```: lists out the contents of your current directory with **hidden** directories and files included.
+- ```ls <directory>```: lists out the contents of the directory provided
+- ```cat <file directory>```: prints out the contents of the file
+- ```mkdir```: creates a directory or directories
 
 ![Image](Screenshots/examples of commands.jpg)
 
