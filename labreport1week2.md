@@ -6,17 +6,24 @@ In order to get [VSCode](https://code.visualstudio.com/), you must first access 
 ![Image](/Screenshots/vscode website.jpg)
 
 Upon pressing it, you should be redirected to another part of their website and the download of the installer should start automatically. 
-![Image](/Screenshots/vscode download starting automatically.jpg)\
+![Image](/Screenshots/vscode download starting automatically.jpg)
 
 Once the download is done, open the installer and follow the steps it provides and it should be installed soon after.
 ![Image](/Screenshots/vscode installer.jpg)
 
-[VSCode Website](https://code.visualstudio.com/)
-
-
+[VSCode Redirect](https://code.visualstudio.com/)
 
 ## Connecting Remotely
 ***
+To connect remotely to the CSE servers, OpenSSH will be used. For Windows, make sure that it is installed by following this [guide](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse).
+
+Afterwards, determine which account you will be logging into on the servers by looking up the account name [here](https://sdacs.ucsd.edu/~icc/index.php). You will need your PID and username. When you press submit, it will take a few moments but the CSE server accounts should appear along with which courses they are associated with. If this does not work, try the second part where you will need your last name and PID. Logging on for the first time, it is suggested to reset your password for these accounts as well.
+![Image](/Screenshots/account lookup.jpg)
+
+Once you get your CSE server account name for CSE15L, it should look like something along the lines of ```cs15lwi22???```(for Winter quarter, 2022 that is), with the three question marks being your account name. Now open VSCode and then open a terminal, which can be done through the shortcut ``` command/ctrl + ` ```. Then use the ssh command to log in, ```ssh cs15lwi22???@ieng6.ucsd.edu```. The ```@ieng6.ucsd.edu``` part is like an address for their servers. Afterwards, it should prompt you to enter a password, so enter the password from when you reset it. It may look like nothing is being written down while typing, but that's normal. If issues arise, make sure you entered it correctly or wait a bit after resetting it, it takes a bit of time for changes to take place. To log out from the server, just use the command ```logout```.
+
+This is what it should look like once you are logged in.
+![Image](/Screenshots/sshcommand.png)
 
 ## Trying Some Commands
 ***
