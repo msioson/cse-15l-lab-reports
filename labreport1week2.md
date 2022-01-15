@@ -62,4 +62,4 @@ You can also use multiple arguments for most commands, and one of those commands
 
 ![Image](Screenshots/cat example.jpg)
 
-Lastly, the up arrow can be used to automatically type out commands that you have already typed out and ran. This could be used to upload a java file then compile and execute it on the server for testing.
+Lastly, the up arrow can be used to automatically type out commands that you have already typed out and ran. One use case for this could be to upload a java file then compile and execute it on the server for testing all without having to type anything after the first time, just press up arrow and enter.
