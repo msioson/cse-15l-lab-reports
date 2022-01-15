@@ -7,7 +7,7 @@ Week 2: [Lab Report 1](labreport1week2.html)
 ## About me
 ***
 
-My name is **Mark** and my pronouns are *He/Him*.
+My name is **Mark** and my pronouns are *He/Him* or *They/Them*.
 
 As of January 2022, I go to [UCSD](https://www.ucsd.edu/)
 
