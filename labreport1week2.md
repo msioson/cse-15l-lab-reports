@@ -36,15 +36,30 @@ Now while you're connected to the server, here is a list of *some* commands you 
 - ```ls <directory>```: lists out the contents of the directory provided
 - ```cat <file directory>```: prints out the contents of the file
 - ```mkdir```: creates a directory or directories
+- ```logout```: logs you out of the servers 
 
 ![Image](Screenshots/examples of commands.jpg)
 
 ## Moving Files with ```scp```
 ***
+To copy files over with the ```scp``` command, you must first have the directory of the file(s) you want to copy, and the address you want to copy the files too. The command should look something like ```scp File1.java cs5lwi22???@ieng6.ucsd.edu:~/```. If you want to copy multiple files over, you want the directory of those files to be separated with a space, all before the desired directory on the server. ```scp File1.java File2.java cs15lwi22???@ieng6.ucsd.edu:~/```. Just like ```ssh```, the command will also prompt you to enter a password before copying the files over. It will also show the progress of copying the files over on the right.
+
+![Image](Screenshots/scp command example.jpg)
 
 ## Setting an SSH Key
 ***
+Setting up an SSH Key allows for students to log onto their accounts on the servers without having to enter a password. In order to actually do that, however, the command ```ssh-keygen``` is used. Using this command on your computer, the client, generates a pair of public and private keys for your computer. When the command is run, it will ask the file in which to save the key, with a default typed in parentheses and that can be used. It will then ask for a passphrase, which should be left empty as that defeats the intention of having to not enter a password. Then use ```ssh```command to log onto the server and run the command ```mkdir``` to make a directory entitled ```.ssh```, then log out. Now, use the command ```scp``` to copy the public ssh key to the .ssh directory on the server. The command should look something like: ```scp ./.ssh/id_rsa.pub cs15lwi22???@ieng6.ucsd.edu:~/.ssh/authorized_keys```.
+
+![Image](Screenshots/sshkeygen example 2.jpg)
 
 ## Optimising Remote Running 
 *** 
+For the last section, there are numerous ways to optimise remote running. One of those ways is to include command(s) that you intend to run on the server, in the ```ssh``` command to log in. Doing this allows you to log into the computer, run the command(s), then log out all in one command. For instance, ```ssh cs15lwi22???@ieng6.ucsd.edu "java WhereAmI```. Doing this will give you the output of WhereAmI.java and then log you out. It's just like logging in, running the commands yourself, then logging out.
 
+![Image](Screenshots/ssh multiple commands example.jpg)]
+
+You can also multiple arguments for most commands, and one of those commands is ```cat```.
+
+![Image](Screenshots/cat example.jpg)
+
+Lastly, the up arrow can be used to automatically type out commands that you have already typed out and ran. This could be used to upload a java file then compile and execute it on the server for testing.
