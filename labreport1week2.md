@@ -102,6 +102,10 @@ executed. Once you have typed out the command to ```scp``` a file onto the remot
 execute in the same line as mentioned above, local edits can be uploaded in as little as six keystrokes (assuming you 
 have also set up an SSH key on the remote server) by using the commands: ```scp <file> cs15lwi22???@ieng6.ucsd.edu``` 
 and then ```ssh cs15lwi22???@ieng6.ucsd.edu "javac <file>.java; java <class in file>"```. Generally, the keystrokes are: 
-(up, up, enter) two times, all into the terminal. This automatically types out the command before the last, executes it, 
-then the last one you intend to execute. Overall, this took me approximately 4 seconds to upload a local change in a file,
-upload it, then execute it on the remote server.
+``` ``up, up, enter``` two times, all into the terminal. This automatically types out the command before the last, executes it, 
+then the last one you intend to execute. Overall, this took me approximately 6 seconds to upload a local change in a file,
+upload it, then execute it on the remote server. 
+
+When I chose to type out the commands out instead, ```ssh``` and ```scp```, it took me just about 42 seconds, compared to
+the mere 6 seconds it took to press ```up, up, enter``` twice. When you have to do this repeatedly, it becomes clear
+that this method saves plenty of time when uploading and compiling code.
