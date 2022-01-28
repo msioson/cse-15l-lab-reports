@@ -4,6 +4,8 @@
 ***
 Week 2: [Lab Report 1](labreport1week2.html)
 
+Week 4: [Lab Report 2](labreport2week4.html)
+
 ## About me
 ***
 
