@@ -96,6 +96,7 @@ You can also use multiple arguments for most commands, and one of those commands
 Lastly, the up arrow can be used to automatically type out commands that you have already typed out and ran. One use case 
 for this could be to upload a java file then compile and execute it on the server for testing all without having to type 
 anything after the first time, just press up arrow and enter.
+
 Another use case for this could be to make local edits on a file and then upload them onto the remote server to be 
 executed. Once you have typed out the command to ```scp``` a file onto the remote servers and ```ssh``` to log in and 
 execute in the same line as mentioned above, local edits can be uploaded in as little as six keystrokes (assuming you 
