@@ -12,7 +12,7 @@ The symptom of the failure inducing input:
 This symptom of the failure-inducing test file initially appeared while we were working as a group entitled "The Kangaroos" 
 during the lab on January 27, 2022, hence it being a commit on my group mate's repository. However, the symptom itself 
 was that it threw a ```StringIndexOutOfBoundsException``` when it was expected to have printed ```link[1].com``` and 
-```link[].org``` This was caused by a bug in the code which failed to account for a new line at the end of a link or a set 
+```link[].org```. This was caused by a bug in the code which failed to account for a new line at the end of a link or a set 
 of parentheses in the markdown file, causing an exception to be thrown.
 
 This was fixed by writing code to determine if there were any other brackets after a pair later on in the file. If there 
