@@ -10,7 +10,6 @@ your username and the host name for you. The host name being
 may have to log in like this at the moment:
 
 ![Image](Screenshots/lab_report_3/loginwithoutshort.png)
-
 Which is boring and not really memorable, so we should find a way to shorten 
 this command and be able to log in easily.
 
