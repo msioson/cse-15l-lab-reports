@@ -5,15 +5,15 @@
 For lab report 4, there are three markdown snippets that will be used to test
 our implementations of MarkdownParse. Those snippets being:
 
-[Snippet 1](Screenshots/lab_report_4/snippet-1.md)
+[Snippet 1](https://raw.githubusercontent.com/msioson/cse-15l-lab-reports/master/Screenshots/lab_report_4/snippet-1.md)
 
 ![Image](Screenshots/lab_report_4/snippet1.png)
 
-[Snippet 2](Screenshots/lab_report_4/snippet-2.md)
+[Snippet 2](https://raw.githubusercontent.com/msioson/cse-15l-lab-reports/master/Screenshots/lab_report_4/snippet-2.md)
 
 ![Image](Screenshots/lab_report_4/snippet2.png)
 
-[Snippet 3](Screenshots/lab_report_4/snippet-3.md)
+[Snippet 3](https://raw.githubusercontent.com/msioson/cse-15l-lab-reports/master/Screenshots/lab_report_4/snippet-3.md)
 
 ![Image](Screenshots/lab_report_4/snippet3.png)
 
