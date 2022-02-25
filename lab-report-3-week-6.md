@@ -53,4 +53,10 @@ using the command ```ssh cs15l```.
 
 ![Image](Screenshots/lab_report_3/finishedsshcommand.png)
 
+You can also use the same host title or alias in other commands where you 
+would have to put the entire server address, such as the```scp``` command. 
+For instance:
+
+![Image](Screenshots/lab_report_3/scpcommand.png)
+
 
