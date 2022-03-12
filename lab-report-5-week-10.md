@@ -56,5 +56,25 @@ though there is a way of determining if those sets of parentheses come right
 after a closing bracket, which could be where the possible solution would go.
 
 
-## Test File 2:
+## Test File 2: 342.md
 
+The test file that we will be analysing is
+[342.md](Screenshots/lab_report_5/342.md) in both implementations of
+MarkdownParse.
+```
+[not a `link](/foo`)
+```
+
+### CSE15L Implementation:
+
+![Image](Screenshots/lab_report_5/cse15l_implementation_342.png)
+
+As seen above, the output from running the course implementation of 
+MarkdownParse on test file, 342.md, returns the only line in the file which
+closely resembles the convention of a link in Markdown.
+
+### Group Implementation:
+
+![Image](Screenshots/lab_report_5/group_implementation_342.png)
+
+Just like the course implementation, the output is the same. `\[/foo\``.
