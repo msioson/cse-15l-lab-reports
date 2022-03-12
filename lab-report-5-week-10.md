@@ -104,4 +104,6 @@ prevent whatever is in the parentheses from being included.
 
 Currently, the group implementation does not account nor check for any form
 of backticks, so that should be implemented to prevent content in 
-bracket-parentheses from appearing within the returned list of links.
+bracket-parentheses from appearing within the returned list of links. This 
+could be done by entirely excluding any text within a pair of backticks
+from being counted as a potential link.
