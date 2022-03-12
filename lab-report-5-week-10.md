@@ -4,7 +4,8 @@
 In this lab report, we will be discussing the differences between the group
 implementation and course implementation of MarkdownParse. The tests were found
 by running the bash script and selecting the files that led to the course 
-implementation to return a link or more.
+implementation to return a link or more. All test files can be found 
+[here](https://github.com/ucsd-cse15l-w22/markdown-parse/tree/main/test-files)
 
 ![Image](Screenshots/lab_report_5/bash_script.png)
 
