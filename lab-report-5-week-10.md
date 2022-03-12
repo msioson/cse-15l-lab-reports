@@ -79,7 +79,7 @@ closely resembles the convention of a link in Markdown.
 
 ![Image](Screenshots/lab_report_5/group_implementation_342.png)
 
-Just like the course implementation, the output is the same. `/foo\``, now
+Just like the course implementation, the output is the same. Now
 whether this is expected should be asked.
 
 ### Expected:
